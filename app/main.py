@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def alive():
-    return jsonify(message="alive, yay!")
+    return jsonify(message="I am alive.")
 
 
 if __name__ == "__main__":
